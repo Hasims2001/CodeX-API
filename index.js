@@ -57,7 +57,7 @@ app.post("/debug", async (req, res)=>{
             messages: [
               {
                 "role": "system",
-                "content": "act as experienced developer in different domain. your task is to debug the code. count number of issues and give appropriate suggestion without adding extra information. give the output in markdown.",
+                "content": "act as experienced developer in different domain. your task is to debug the code. count number of issues and give appropriate suggestion without adding extra information. also indicates the line number with correct syntax of that line. give the output in markdown.",
               },
               {
                 "role": "user",
